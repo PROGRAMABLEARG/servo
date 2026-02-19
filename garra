@@ -4,6 +4,7 @@ Servo garra;
 
 void setup() {
   garra.attach(9);
+  pindeMode(13, OUTPUT);
 
 }
 
